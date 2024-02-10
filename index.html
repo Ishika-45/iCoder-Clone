@@ -1,174 +1,291 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>iCoder - Heaven for Programmers</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-secondary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">iCoder</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Topics
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Web Development</a></li>
-                  <li><a class="dropdown-item" href="#">Technologies</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Support</a></li>
-                  <li><a class="dropdown-item" href="#">Write for us</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-light" type="submit">Search</button>
-              <button type="button" class="btn btn-danger mx-1">Login</button>
-              <button type="button" class="btn btn-danger">SignUp</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
-      <!-- CAROUSEL -->
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://images.unsplash.com/photo-1658086351750-1ec43149a713?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSxjb2Rpbmd8fHx8fHwxNzA3MzExMjEx&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Welcome to iCoder</h5>
-              <p>Technology news,Development and Trends.</p>
-              <button class="btn btn-danger" type="submit">Technology</button>
-              <button class="btn btn-primary" type="submit">Web Development</button>
-              <button class="btn btn-success" type="submit">Tech Fun</button>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1536859355448-76f92ebdc33d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSxwcm9ncmFtbWluZ3x8fHx8fDE3MDczMTEyMzg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Best Coding Blog</h5>
-              <p>Technology news,Development and Trends.</p>
-              <button class="btn btn-danger" type="submit">Technology</button>
-              <button class="btn btn-primary" type="submit">Web Development</button>
-              <button class="btn btn-success" type="submit">Tech Fun</button>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1593720213411-697ba0ac0162?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSxkZXZlbG9wbWVudHx8fHx8fDE3MDczMTEyOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Award winning Blog</h5>
-              <p>Technology news,Development and Trends.</p>
-              <button class="btn btn-danger" type="submit">Technology</button>
-              <button class="btn btn-primary" type="submit">Web Development</button>
-              <button class="btn btn-success" type="submit">Tech Fun</button>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">iCoder</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topics
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                <li><a class="dropdown-item" href="#">Technologies</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Support</a></li>
+                <li><a class="dropdown-item" href="#">Write for us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+            <button type="button" class="btn btn-danger mx-1">Login</button>
+            <button type="button" class="btn btn-danger">SignUp</button>
+          </form>
+        </div>
       </div>
+    </nav>
 
-      <!-- CARD -->
-      <div class="card mb-3 g-4" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://images.unsplash.com/photo-1511314797109-6ba9c4854fd0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bmF0dXJlLHdhdGVyfHx8fHx8MTcwNzMxODkyNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400" class="img-fluid rounded-start" alt="...">
+    <!-- CAROUSEL -->
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1658086351750-1ec43149a713?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=550&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSxjb2Rpbmd8fHx8fHwxNzA3MzExMjEx&ixlib=rb-4.0.3&q=80&utm_campaign=api-credt&utm_medium=referral&utm_source=unsplash_source&w=1600"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to iCoder</h2>
+            <p>Technology news,Development and Trends.</p>
+            <button class="btn btn-danger" type="submit">Technology</button>
+            <button class="btn btn-primary" type="submit">
+              Web Development
+            </button>
+            <button class="btn btn-success" type="submit">Tech Fun</button>
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <p class="text-primary">World</p>
-              <h5 class="card-title">Global Coding Conferences</h5>
-              <p class="card-text"><small class="text-body-secondary">Nov 12</small></p>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="card-link">Continue reading</a>
-            </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1536859355448-76f92ebdc33d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=550&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSxwcm9ncmFtbWluZ3x8fHx8fDE3MDczMTEyMzg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Best Coding Blog</h2>
+            <p>Technology news,Development and Trends.</p>
+            <button class="btn btn-danger" type="submit">Technology</button>
+            <button class="btn btn-primary" type="submit">
+              Web Development
+            </button>
+            <button class="btn btn-success" type="submit">Tech Fun</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1593720213411-697ba0ac0162?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=550&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSxkZXZlbG9wbWVudHx8fHx8fDE3MDczMTEyOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Award winning Blog</h2>
+            <p>Technology news,Development and Trends.</p>
+            <button class="btn btn-danger" type="submit">Technology</button>
+            <button class="btn btn-primary" type="submit">
+              Web Development
+            </button>
+            <button class="btn btn-success" type="submit">Tech Fun</button>
           </div>
         </div>
       </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-      <div class="card mb-3 g-4" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSxkZXNpZ25pbmd8fHx8fHwxNzA3MzE4Nzcx&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <p class="text-success">Design</p>
-              <h5 class="card-title">Learn Designing</h5>
-              <p class="card-text"><small class="text-body-secondary">June 11</small></p>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="card-link">Continue reading</a>
-            </div>
+    <!-- CARD -->
+    <div class="card mb-3 g-4" style="max-width: 540px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1511314797109-6ba9c4854fd0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bmF0dXJlLHdhdGVyfHx8fHx8MTcwNzMxODkyNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400"
+            class="img-fluid rounded-start"
+            alt="..."
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="text-primary">World</p>
+            <h5 class="card-title">Global Coding Conferences</h5>
+            <p class="card-text">
+              <small class="text-body-secondary">Nov 12</small>
+            </p>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="card-link">Continue reading</a>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="card mb-3 g-4" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://images.unsplash.com/photo-1540808450974-f61b32d7db7d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bmF0dXJlLG1vdW50YWlufHx8fHx8MTcwNzMxODk5Mw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <p class="text-danger">Frontend</p>
-              <h5 class="card-title">Get Bootstrap Templates</h5>
-              <p class="card-text"><small class="text-body-secondary">June 21</small></p>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="card-link">Continue reading</a>
-            </div>
+    <div class="card mb-3 g-4" style="max-width: 540px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSxkZXNpZ25pbmd8fHx8fHwxNzA3MzE4Nzcx&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400"
+            class="img-fluid rounded-start"
+            alt="..."
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="text-success">Design</p>
+            <h5 class="card-title">Learn Designing</h5>
+            <p class="card-text">
+              <small class="text-body-secondary">June 11</small>
+            </p>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="card-link">Continue reading</a>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="card mb-3 g-4" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://images.unsplash.com/photo-1606555549496-2619dfd8e502?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVuY2lsLGRyYXdpbmd8fHx8fHwxNzA3MzE5MDY5&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <p class="text-warning">Python</p>
-              <h5 class="card-title">Learn Python Here</h5>
-              <p class="card-text"><small class="text-body-secondary">Sep 11</small></p>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="card-link">Continue reading</a>
-            </div>
+    <div class="card mb-3 g-4" style="max-width: 540px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1540808450974-f61b32d7db7d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bmF0dXJlLG1vdW50YWlufHx8fHx8MTcwNzMxODk5Mw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400"
+            class="img-fluid rounded-start"
+            alt="..."
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="text-danger">Frontend</p>
+            <h5 class="card-title">Get Bootstrap Templates</h5>
+            <p class="card-text">
+              <small class="text-body-secondary">June 21</small>
+            </p>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="card-link">Continue reading</a>
           </div>
         </div>
       </div>
+    </div>
 
-      <footer class="container">
-        <p>© 2020-2021 iCoder, Inc..<a href="#">Privacy</a>·<a href="#">Terms</a><a href="#">Back to top</a></p>
+    <div class="card mb-3 g-4" style="max-width: 540px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1606555549496-2619dfd8e502?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVuY2lsLGRyYXdpbmd8fHx8fHwxNzA3MzE5MDY5&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400"
+            class="img-fluid rounded-start"
+            alt="..."
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="text-warning">Python</p>
+            <h5 class="card-title">Learn Python Here</h5>
+            <p class="card-text">
+              <small class="text-body-secondary">Sep 11</small>
+            </p>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="card-link">Continue reading</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container">
+      <p>
+        © 2020-2021 iCoder, Inc..<a href="#">Privacy</a>·<a href="#">Terms</a
+        ><a href="#">Back to top</a>
+      </p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
